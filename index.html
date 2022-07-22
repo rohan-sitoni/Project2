@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            min-height:100vh;
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .item{
+            
+            background-color:hsl(0, 0%, 95%);
+            padding: 2.5rem;
+            min-height:50vh;
+            max-width: 10rem;
+            position: relative;
+        }
+        .car_name{
+            color:white;
+            font-family: 'arial',serif ;
+            font-size: 25px;   
+               
+            
+        }
+        .image{
+            margin-bottom:30px;
+            
+        }
+        .item p{
+           color:hsl(0, 0%, 95%);
+            font-family: 'arial',serif;
+            margin-top:1.5rem ;
+            margin-bottom:6rem ;
+        }
+        .item button{
+            position: absolute;
+            border: 2px solid white;
+            background: hsl(0, 0%, 95%) ;
+            text-align: center;
+            color:hsl(0, 0%, 95%);
+            font-family: 'arial',serif;
+            bottom: 0;
+            margin-bottom:2rem;
+            padding:12px 18px ; 
+            border-radius: 40px;
+        }
+       
+        .first{
+            background-color: rgba(182, 117, 37, 0.908);
+        }
+        .second{
+            background-color: rgb(16, 120, 123);
+        }
+        .third{
+            background-color:rgba(5, 72, 36, 0.668);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items">
+            <div class="item first">
+                <div class="image">
+                    <image src="icon-sedans.svg"></image>
+                       
+                </div>
+                <div class="contect">
+                    <span class="car_name">SEDANS</span>
+                    <p>Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+                        or on your next road trip.</p>
+
+                    <button style="background-color:rgba(182, 117, 37, 0.908);">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="items">
+            <div class="item second">
+                <div class="image">
+                    <image src="icon-suvs.svg"></image>
+                       
+                </div>
+                <div class="contect">
+                    <span class="car_name">SUVS</span>
+                    <p> Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+                        and off-road adventures.</p>
+
+                    <button style="background-color:rgb(16, 120, 123);">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="items">
+            <div class="item third">
+                <div class="image">
+                    <image src="icon-luxury (1).svg"></image>
+                       
+                </div>
+                <div class="contect">
+                    <span class="car_name">LUXURY</span>
+                    <p>Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+                        rental and arrive in style.</p>
+
+                    <button style="background-color:rgba(5, 72, 36, 0.668);">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
